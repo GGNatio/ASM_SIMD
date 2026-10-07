@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers sources\Math">
+      <UniqueIdentifier>{2d9a113c-34c7-40e7-b69f-e53d0e6c029e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Math">
+      <UniqueIdentifier>{efbaa88f-8ce6-4332-a86a-78e4087dcac7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Tests">
+      <UniqueIdentifier>{14e9a44e-1b88-4bd0-9c18-f5cd71117e06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\SIMD">
+      <UniqueIdentifier>{4ce03187-3fe5-49a6-a6cf-36cfb9f16309}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\ASM">
+      <UniqueIdentifier>{f6e18f25-e4e4-4ad0-af1e-a0217869fc6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Benchmark">
+      <UniqueIdentifier>{615d38b6-dc16-4ede-bcb7-a61db80fd739}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\ASM">
+      <UniqueIdentifier>{ab06c2c0-39fd-4ea8-ace4-2641077bcc97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Benchmark">
+      <UniqueIdentifier>{e85eafca-ad1f-4361-bce8-1e3303c612c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\SIMD">
+      <UniqueIdentifier>{4766d68a-6374-4a73-af0f-1ebc1ca851ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Tests">
+      <UniqueIdentifier>{7d97a9db-f12e-4a92-80b9-af7dac265f77}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Vec3.h">
+      <Filter>Fichiers d%27en-tête\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Mat4x4.h">
+      <Filter>Fichiers d%27en-tête\Math</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Vec3.cpp">
+      <Filter>Fichiers sources\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Mat4x4.cpp">
+      <Filter>Fichiers sources\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
